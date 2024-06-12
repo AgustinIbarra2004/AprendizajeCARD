@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Navegador{
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    padding: 20px;
+}
+#Navegador div {
+padding: 10px;
+}
+#Navegador a {
+    padding: 0 15px;
+    font-size: 1.3em;
+    text-decoration: none;
+    justify-content: center;
+}
+#hero{
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+#hero h1{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+#Productos h2{
+    text-align: center;
+    font-size: 3.5em;
+    
+}
+#Productos h2{
+    padding: 20px;
+}
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.Card {
+    flex: 0 1 300px; /* Cambiar flex a 0 */
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.Card:hover {
+    transform: translateY(-5px);
+}
+.cardImg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el contenedor manteniendo la relación de aspecto */
+}
+.Card .footerIMG {
+    padding: 20px;
+}
+#Productos h3{
+    font-size: 1.5em;
+    color: #333;
+    font-family: Raleway, sans-serif;
+    margin-top: 10px;
+
+}
+#Productos p{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+#ConctactoUbicacion p{
+    
+}
+.Contacto-Ubicacios-Horarios{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    font-size: 1.3em;
+    justify-content: space-between;
+}
+.Conctacto p{
+    padding: 10px 0px;
+}
+.Ubicacion p{
+    padding: 10px 0px;
+}
+.Horarios p{
+    padding: 10px 0px;
+}
+.mapa{
+    width: 300px;
+    height: 200px;
+}
+
+footer p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+}
